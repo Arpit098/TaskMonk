@@ -1,0 +1,27 @@
+// import React from 'react'
+// import { Route, Routes, BrowserRouter } from 'react-router-dom'
+// import Login from './src/pages/auth/Login'
+// import Home from './src/Home'
+// import Dashboard from "./src/pages/dashboard/Dashboard";
+// import Users from "./src/pages/users/Users";
+// import TaskManager from "./src/pages/taskmanager/TaskManager";
+// import Login from "./src/pages/auth/Login";
+// import TodoList from "./src/pages/todoList/TodoList";
+// export default function MainComponent() {
+//   return (
+//     <div>
+//       <BrowserRouter>
+//         <Routes>
+//           <Route path="/login" element={<Login/>}/>
+//           <Route path="/" element={<Home/>}/>
+//               <Route path="" element={<Dashboard/>}/>
+//               <Route path="users" element={<Users/>}/>
+//               <Route path="taskmanager" element={<TaskManager/>}/>
+//               <Route path="todolist" element={<TodoList/>}/>
+//            /</Route> 
+//          </Routes>
+//     </BrowserRouter> 
+    
+//     </div>
+//   )
+// }

@@ -1,0 +1,44 @@
+.navbar{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+  display: flex;
+  font-weight: bold;
+  font-size: 25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.user img{
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.user{
+   display: flex;
+   align-items: center;
+   gap: 7px;
+}
+.notification{
+    position:relative;
+}
+.notification span{
+   background-color: red;
+   border-radius: 50%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   top: -10px;
+   right:-10px;
+   position: absolute;
+   width: 16px;
+   height:16px;
+   font-size: small;
+}

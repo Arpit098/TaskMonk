@@ -1,0 +1,13 @@
+.headings{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+.headings span:first-child{
+    font-weight: bold;
+    font-size: 12px;
+}
+.headings span:last-child{
+    font-size: 10px;
+}

@@ -1,0 +1,42 @@
+@import "../../Styles/Variables.css"; 
+body,html{
+    background-color: var(--main-bg);
+}  
+.dashboard{
+    display: grid;
+    gap:20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(150px, auto);
+    max-height: 80vh; 
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+.dashboard::-webkit-scrollbar {
+    display: none;
+}
+.box{
+    padding:20px;
+    border-radius: 10px;
+    border: 1px solid var(--soft-bg);
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.1s;
+}
+
+.box:hover{
+    scale: 1.01;
+}
+
+.box1 {
+    grid-column: span 1;
+}
+
+.graph {
+    grid-column: span 2; /* This will make it span two columns */
+    grid-row: 3;
+    grid-row: span 3 /* Start a new line by specifying the row */
+}
+.piechart{
+    grid-row: 3;
+    grid-row: span 3;
+}
