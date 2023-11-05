@@ -13,11 +13,13 @@ function App() {
      <Routes>
       <Route path="/" element={<Login/>}/>
       <Route path="/home" element={<Home/>}>
-      <Route path="/home/users" element={<Users/>}/>
-      <Route path="/home/taskmanager" element={<TaskManager/>}/>
-      <Route path="/home/todolist" element={<TodoList/>}/>
-      <Route path="/home/dashboard" element={<Dashboard/>}/>
+          <Route path="/home/users" element={<Users/>}/>
+          <Route path="/home/taskmanager" element={<TaskManager/>}/>
+          <Route path="/home/todolist" element={<TodoList/>}/>
+          <Route path="/home/dashboard" element={<Dashboard/>}/>
       </Route>
+      <Route path="/auth/google/success" element={<Dashboard/>}/>
+      <Route path="/auth/google/failure" element={<Login/>} />
      </Routes>
    </BrowserRouter> 
   );
