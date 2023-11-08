@@ -1,13 +1,6 @@
 import React from 'react';
 import './auth.css';
-import axios from "axios";
-
 const Login = () => {
- 
-  const handleLogin = async() =>{
-  
-  }
-  
   return (
     <div id="login-page">
       <div className="login">

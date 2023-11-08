@@ -13,7 +13,6 @@ const Dashboard = () => {
       <div className="box box1">table5</div>
       <div className="box graph"><Graph/></div>
       <div className="box piechart"><Pchart/></div>
-      <TestTable/>
     </div>
   )
 }
